@@ -446,7 +446,7 @@ dt, dd {margin:0; line-height:1.6em;}
 #signup {background:#92d1d3; color:#fff; padding:40px 40px 35px ; margin-top:20px;}
 #signup h3 {margin:0 0 5px 0;}
 #signup h2{font-weight:bold; margin:0;}
-#signup .dots {background-position:0px -115px; height:40px; top:0; bottom:auto;}
+#signup .dots {background-position:5px -92px; left:auto; right:0;}
 .signup {background:#d492ab; color:#fff; display:inline-block; padding:6px 20px 8px; font-size:20px; line-height:27px; margin-top:20px;} 
 .signup:visited {color:#fff;}
 .signup:hover {text-decoration:none;}
