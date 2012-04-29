@@ -1,27 +1,107 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Hack'n Jill</title>
-<style type="text/css">
-  body {background:url('/images/bg.png'); color:#5d5c53; font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;}
-  h1{color:#34332d; font-size:80px; margin:0.3em 0;}
-  p {line-height:1.6em;}
-  #main {width:440px; margin:100px auto;}
-  a {text-decoration:none; color:#1492d3;}
-  a:hover {text-decoration:underline;}
-</style>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Hack'n Jill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/hacknjill.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- 
+    oooo                            oooo                        o8o  o8o  oooo  oooo  
+    `888                            `888                        `"'  `"'  `888  `888  
+     888 .oo.    .oooo.    .ooooo.   888  oooo  ooo. .oo.      oooo oooo   888   888  
+     888P"Y88b  `P  )88b  d88' `"Y8  888 .8P'   `888P"Y88b     `888 `888   888   888  
+     888   888   .oP"888  888        888888.     888   888      888  888   888   888  
+     888   888  d8(  888  888   .o8  888 `88b.   888   888      888  888   888   888  
+    o888o o888o `Y888""8o `Y8bod8P' o888o o888o o888o o888o     888 o888o o888o o888o 
+                                                                888                   
+                                                            .o. 88P                   
+                                                            `Y888P                                                        
+    -->
+  </head>
 
-<body>
-  <div id="main">
-    <h1>Hack'n Jill</h1>
-    <p>We celebrate passionate and committed technology makers. </p>
-    <p>We believe that diverse teams of men and women create the 
-    best products. </p>
-    <p>We will create an environment where both genders feel welcome 
-    to build cool things together.</p>
-    <p>Connect with us: <a href="https://twitter.com/#!/hacknjill">@hacknjill</a> or <a href="mailto:hi@hacknjill.com">email</a></p>
-  </div>
-</body>
+  <body>
+    <header id="site-header" class="container">
+      <a href="/" class="hide-text" id="branding">Hack'n Jill</a>
+      <ul id="site-nav">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/">About</a></li>
+      </ul>
+      </nav>
+    </header>
+    
+    
+    <div id="content" class="container">
+      <div id="hero-wrapper">
+        <div id="hero">
+          <div id="hero-title" class="hero-info">#HackYourSummer</div>
+          <div id="hero-description" class="hero-info">NYC, June 15-16</div>
+        </div>
+        <div id="hero-curl"></div>
+      </div>
+      
+      <div class="row-fluid">
+        <div class="span4">
+          <h3><span class="icon"></span>Location</h3>
+          <div class="grid-content">
+            <h4>AppNexus</h4>
+            <div class="vcard">
+              <p class="adr">
+                <span class="street-address">28 West 23rd Street, 4th Floor</a><br />
+                <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10010</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="span4">
+          <h3><span class="icon"></span>Schedule</h3>
+          <div class="grid-content">
+            <div class="schedule-day">
+              <h4>June 15, 2012 <span class="day-name">Friday</span></h4>
+              <dl>
+                <dt>7pm - 10pm</dt>
+                <dd><strong>Mixer + API Demos:</strong> Mingle and meet your team over pizza, beer, and demos from our API partners.</dd>
+              </dl>
+            </div>
+          
+            <div class="schedule-day">
+              <h4>June 16, 2012 <span class="day-name odd">Saturday</span></h4>
+              <dl>
+                <dt>9am - 5pm</dt>
+                <dd><strong>Hack it:</strong> Bring your laptops and game plan for a day of hacking. Food and snacks provided.</dd>
+                <dt>5pm - 9pm</dt>
+                <dd><strong>Show off + Chill out:</strong> Present your app, win a prize, and raise a glass to yourself at the after party.</dd>
+              </dl>
+            </div>  
+          </div>  
+        </div>
+        <div class="span4">
+          <h3><span class="icon"></span>About</h3>
+          <div class="grid-content">
+            <p>#HackYourSummer welcomes 100 of New York's developers, designers, and digital dreamers  to make summer in the world's greatest city even better. Anything from food to fitness, music to travel.</p>
 
+            <p><a href="/about.html">Hack’n Jill</a> believes that diverse teams of men  and women create the best products.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer id="site-footer" class="container">
+      <div id="contact-wrapper">
+        <div id="contact">
+          <h4>Get Involved!</h4>
+          <p>
+            We are looking for hackers, sponsors, and volunteers. <br />
+            Connect with us: <a href="http://twitter.com/hacknjill">@hacknjill</a> or <a href="mailto:hi@hacknjill.com">email</a></p>
+        </div>
+      </div>
+      <div id="footer-branding">
+        Hack'n Jill
+      </div>
+
+    </footer>
+  </body>
 </html>
