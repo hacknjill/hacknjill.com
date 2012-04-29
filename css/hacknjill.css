@@ -317,6 +317,8 @@ a:hover {text-decoration:underline;}
 p {line-height:1.6em; margin:1em 0;}
 dt, dd {margin:0; line-height:1.6em;}
 
+.f-left {float:left;}
+
 #branding {
   display:block;
   float:left;
@@ -348,6 +350,7 @@ dt, dd {margin:0; line-height:1.6em;}
   height:140px;
   z-index:1;
 }
+#footer-branding .dots {left:auto; bottom:auto; right:0; top:0; background-position:13px -58px;}
 #contact-wrapper {
   z-index:2;
   width:55%; 
@@ -358,6 +361,7 @@ dt, dd {margin:0; line-height:1.6em;}
   height:140px;
   color:#fff;
 }
+#contact-wrapper .dots {background-position:-103px -54px;}
 
 #contact {
   padding:10px 40px;
@@ -407,8 +411,15 @@ dt, dd {margin:0; line-height:1.6em;}
   transform: skew(15deg) rotate(3deg); 
 }
 
-#title1 {font-size:72px; font-weight:bold; position:relative; line-height:1.4em; color:#fff; background:#d492ab; padding:20px 40px; margin-left:140px; margin-bottom:40px; margin-top:60px; }
-#title2 {font-size:48px; font-weight:bold; position:relative; line-height:1.4em; color:#fff; background:#92d1d3; margin-left:-65px; margin-right: 180px; margin-bottom:80px; padding:10px 40px; }
+.title-block {line-height:1.6em;line-height:1.4em; color:#fff;font-weight:bold;}
+.dots-block {position:relative;}
+.dots {position:absolute; width:40px; height:50px; left:0; bottom:0; background-image:url('/images/sprite.png'); background-repeat:no-repeat;}
+
+#title1 {font-size:72px; background:#d492ab; padding:20px 40px; margin-left:140px; margin-bottom:40px; margin-top:60px; }
+#title1 .dots {left: auto; right:0; width:53px; height:73px; background-position: -42px -43px;}
+#title2 {font-size:48px; background:#92d1d3; margin-left:-65px; margin-right: 180px; margin-bottom:80px; padding:10px 40px; }
+#title2 .dots {background-position:0 -41px; height:57px;}
+
 .icon {
   display:block; 
   float:left;
