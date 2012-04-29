@@ -374,7 +374,6 @@ dt, dd {margin:0; line-height:1.6em;}
   position:relative;
   z-index:1;
   background:url('/images/hero.jpg') no-repeat;
-  margin-bottom:2em;
 }
 
 #hero .hero-info {position:absolute; color:#fff; font-size:36px;font-weight:bold;}
@@ -408,6 +407,8 @@ dt, dd {margin:0; line-height:1.6em;}
   transform: skew(15deg) rotate(3deg); 
 }
 
+#title1 {font-size:72px; font-weight:bold; position:relative; line-height:1.4em; color:#fff; background:#d492ab; padding:20px 40px; margin-left:140px; margin-bottom:40px; margin-top:60px; }
+#title2 {font-size:48px; font-weight:bold; position:relative; line-height:1.4em; color:#fff; background:#92d1d3; margin-left:-65px; margin-right: 180px; margin-bottom:80px; padding:10px 40px; }
 .icon {
   display:block; 
   float:left;
