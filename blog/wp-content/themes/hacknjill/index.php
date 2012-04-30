@@ -15,7 +15,7 @@
 get_header(); ?>
   
 <div class="row-fluid">
-  <div class="span7">
+  <div class="span6">
 		<?php if ( have_posts() ) : ?>
 
 			<?php twentyeleven_content_nav( 'nav-above' ); ?>
@@ -41,8 +41,6 @@ get_header(); ?>
 		<?php endif; ?>
   </div>
   <div class="span1">&nbsp;</div>
-  <div class="span4">
-    <?php get_sidebar(); ?>
-  </div>
+  <?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>

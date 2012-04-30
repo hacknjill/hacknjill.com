@@ -440,9 +440,9 @@ dt, dd {margin:0; line-height:1.6em;}
 
 /* about */
 .bio { margin-bottom:2em;}
-#about {padding:20px 0 40px;border-top:2px dotted #e5e2c5;border-bottom:2px dotted #e5e2c5;}
+#about {padding:20px 0 40px;border-top:2px dotted #dbd599;border-bottom:2px dotted #dbd599;}
 #team {margin:100px 0;}
-#signup {background:#92d1d3; color:#fff; padding:40px 40px 40px 60px; margin-top:20px; }
+#signup {background:#92d1d3; color:#fff; padding:40px; margin-top:20px; }
 #signup h3 {margin:0 0 5px 0;}
 #signup h2{font-weight:bold; margin:0;}
 #signup .dots {background-position:5px -92px; left:auto; right:0;}
@@ -450,6 +450,8 @@ dt, dd {margin:0; line-height:1.6em;}
 .button:hover {background:#ff2f7d; text-decoration:none;}
 .signup:hover {text-decoration:none;}
 .signup:hover .button {background: #ff2f7d;}
+
+#notfound {border:10px dotted #dbd599; padding:30px; width:400px; margin:0 auto; text-align:center;}
 
 /* responsive (bootstrap) */
 @media (max-width: 767px) {
@@ -551,6 +553,7 @@ dt, dd {margin:0; line-height:1.6em;}
 
 @media (min-width: 1200px) {
   .container { width: 1170px; }
+  #signup {padding-left:60px; padding-right:60px;}
   [class*="span"] {
     float: left;
     margin-left: 30px;

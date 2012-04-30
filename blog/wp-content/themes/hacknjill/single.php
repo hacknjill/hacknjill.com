@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div class="row-fluid">
-  <div class="span7">
+  <div class="span6">
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<nav id="nav-single">
@@ -26,8 +26,6 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 	</div>
   <div class="span1">&nbsp;</div>
-  <div class="span4">
-    <?php get_sidebar(); ?>
-  </div>
+  <?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
