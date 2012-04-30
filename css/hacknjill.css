@@ -332,7 +332,7 @@ dt, dd {margin:0; line-height:1.6em;}
 #site-nav {float:left; list-style:none; padding:0; margin:0 0 0 300px;}
 #site-nav li, #site-nav a {display:block;}
 #site-nav li {float:left; padding:0 20px;}
-#site-nav a {padding:40px 10px 30px; color:#19cde8;}
+#site-nav a {padding:40px 10px 30px; color:#2496c0;}
 #site-nav a.active {background:#ff2f7d; color:#fff;}
 #site-nav a.active:hover {text-decoration:none;}
 #site-footer{position:relative;height:400px; margin-top:80px;}
