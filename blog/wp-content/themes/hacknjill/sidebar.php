@@ -19,6 +19,7 @@
   </div>
   </a>
   
-  <p>&nbsp;</p>
-  <?php dynamic_sidebar( 'sidebar-1' ) ?>
+  <div id="sidebar">
+    <?php dynamic_sidebar( 'sidebar-1' ) ?>
+  </div>
 </div>

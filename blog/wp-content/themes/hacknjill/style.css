@@ -1,0 +1,25 @@
+#sidebar {margin-top:40px; margin-left:40px;}
+
+@media (min-width: 1200px) {
+  #sidebar {margin-top:60px; margin-left:60px;}
+}
+
+#site-header {border-bottom:2px dotted #dbd599; margin-bottom:40px;}
+
+.post {margin-bottom:5em;}
+.entry-title {margin:0.2em 0;}
+.entry-title a {color:#5A759A;}
+.entry-title a:hover {text-decoration:none;}
+.entry-meta {text-transform:uppercase; font-size:13px; color:#666;}
+
+#sidebar .widget {margin-bottom:2em;}
+#sidebar ul {list-style:none; margin:1em 0; padding:0;}
+
+.commentlist {list-style:none; margin:0; padding:0;}
+.commentlist .comment {margin-bottom:2em;}
+
+#respond {margin-top:4em;}
+#reply-title {font-size:20px;}
+#respond label {display:block;}
+input {border:0; background:#d492ab; color:#fff; padding:6px 20px 8px; font-size:20px; line-height:27px; }
+input:hover {background:#ff2f7d;}
