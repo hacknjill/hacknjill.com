@@ -306,10 +306,10 @@ body {
 }
 
 h1 {font-size:48px; font-weight:normal; margin:0.5em 0;}
-h2 {font-size:36px; font-weight:normal;}
+h2 {font-size:36px; font-weight:normal; margin:0.5em 0;}
 h3 {font-weight:normal; font-size:30px; margin:0.5em 0;}
 h4 {font-weight:normal; font-size:20px; margin:0.5em 0;}
-h5 {font-size:16px;;}
+h5 {font-size:16px; margin:0.5em 0;}
 
 a {text-decoration:none; color:#19cde8;}
 a:hover {text-decoration:underline;}
@@ -439,7 +439,7 @@ dt, dd {margin:0; line-height:1.6em;}
 .day-name.odd {background:#ff2f7d;}
 
 /* about */
-.bio {}
+.bio { margin-bottom:2em;}
 #about {padding:20px 0 40px;border-top:2px dotted #e5e2c5;border-bottom:2px dotted #e5e2c5;}
 #team {margin:100px 0;}
 #signup {background:#92d1d3; color:#fff; padding:40px 40px 40px 60px; margin-top:20px; }
