@@ -376,7 +376,7 @@ dt, dd {margin:0; line-height:1.6em;}
   height:491px;
   position:relative;
   z-index:1;
-  background:url('/images/hero.jpg') no-repeat;
+  background:url('/images/hero.jpg') no-repeat center center;
 }
 
 #hero .hero-info {position:absolute; color:#fff; font-size:36px;font-weight:bold;}
@@ -442,7 +442,7 @@ dt, dd {margin:0; line-height:1.6em;}
 .bio {}
 #about {padding:20px 0 40px;border-top:2px dotted #e5e2c5;border-bottom:2px dotted #e5e2c5;}
 #team {margin:100px 0;}
-#signup {background:#92d1d3; color:#fff; padding:40px 40px 35px ; margin-top:20px;}
+#signup {background:#92d1d3; color:#fff; padding:40px 40px 40px 60px; margin-top:20px; }
 #signup h3 {margin:0 0 5px 0;}
 #signup h2{font-weight:bold; margin:0;}
 #signup .dots {background-position:5px -92px; left:auto; right:0;}
@@ -452,6 +452,7 @@ dt, dd {margin:0; line-height:1.6em;}
 
 /* responsive (bootstrap) */
 @media (max-width: 767px) {
+  #site-nav {margin-left:50px;}
   .container{width:auto;}
   .row-fluid {width: 100%;}
   [class*="span"],
@@ -462,10 +463,13 @@ dt, dd {margin:0; line-height:1.6em;}
     margin-left: 0;
   }
   
-  #contact-wrapper, #footer-branding {position:static; width:100%;}
+  #hero-title, #hero-description {left:0;}
+  #title2{margin-left:0;}
+  #contact-wrapper, #footer-branding {position:relative; top:0; width:100%;}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+  #site-nav {margin-left:50px;}
   [class*="span"] {
     float: left;
     margin-left: 20px;
