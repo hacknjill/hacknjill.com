@@ -20,6 +20,7 @@
 
 #respond {margin-top:4em;}
 #reply-title {font-size:20px;}
-#respond label {display:block;}
-input {border:0; background:#d492ab; color:#fff; padding:6px 20px 8px; font-size:20px; line-height:27px; }
-input:hover {background:#ff2f7d;}
+input {line-height:20px; padding:6px;}
+input, textarea, select {display:block;}
+input[type="submit"] {border:0; background:#d492ab; color:#fff; padding:6px 20px 8px; font-size:20px; line-height:27px; }
+input[type="submit"]:hover {background:#ff2f7d;}
