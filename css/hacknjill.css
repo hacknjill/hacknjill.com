@@ -339,7 +339,7 @@ dt, dd {margin:0; line-height:1.6em;}
 #footer-branding {
   width:55%; 
   background-color:#92d1d3; 
-  background-image:url('/images/logo-large.png');
+  background-image:url('/images/logo.png');
   background-repeat:no-repeat;
   background-position:35px center;
   overflow:hidden;
@@ -554,6 +554,7 @@ dt, dd {margin:0; line-height:1.6em;}
 @media (min-width: 1200px) {
   .container { width: 1170px; }
   #signup {padding-left:60px; padding-right:60px;}
+  #footer-branding {background-image:url('/images/logo-large.png');}
   [class*="span"] {
     float: left;
     margin-left: 30px;
