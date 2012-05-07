@@ -308,7 +308,7 @@ body {
 h1 {font-size:48px; font-weight:normal; margin:0.5em 0;}
 h2 {font-size:36px; font-weight:normal; margin:0.5em 0;}
 h3 {font-weight:normal; font-size:30px; margin:0.5em 0;}
-h4 {font-weight:normal; font-size:20px; margin:0.5em 0;}
+h4 {font-weight:normal; font-size:20px; margin:0.5em 0; line-height:1.6em;}
 h5 {font-size:16px; margin:0.5em 0;}
 
 a {text-decoration:none; color:#2496c0;}
@@ -439,7 +439,8 @@ dt, dd {margin:0; line-height:1.6em;}
 .day-name {color:#fff; font-size:16px; background:#2fe4ff; padding:0 8px; display:inline-block; margin-left:10px;}
 .day-name.odd {background:#ff2f7d;}
 
-#sponsors {margin-top:70px; padding-top:30px; border-top:2px dotted #dbd599;border-bottom:2px dotted #dbd599;}
+#sponsors {margin:70px 0; padding:40px 0 100px; border-top:2px dotted #dbd599;}
+.aside { padding:30px; }
 
 /* about */
 .bio { margin-bottom:2em;}
