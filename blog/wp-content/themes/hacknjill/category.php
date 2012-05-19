@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div class="row-fluid">
-  <div class="span6">
+  <div class="span7">
     <?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
@@ -57,7 +57,6 @@ get_header(); ?>
 
 		<?php endif; ?>
 	</div>
-  <div class="span1">&nbsp;</div>
   <?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
