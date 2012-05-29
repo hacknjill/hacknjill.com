@@ -22,9 +22,11 @@
 			<?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta">
 				<?php twentyeleven_posted_on(); ?>
+				<?php if ( comments_open() && ! post_password_required() ) : ?>
+  			  &#8212; <span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', 'twentyeleven' ) . '</span>', __( '<b>1</b> Comment', 'twentyeleven' ), __( '<b>%</b> Comments', 'twentyeleven' ) ); ?></span>
+  			<?php endif; ?>
 			</div><!-- .entry-meta -->
 			<?php endif; ?>
-
 		</header><!-- .entry-header -->
 
 		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
@@ -37,5 +39,9 @@
 			<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
 		<?php endif; ?>
-
+		<?php if ( comments_open() ) : ?>
+		<footer class="entry-footer">
+		  <span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', 'twentyeleven' ) . '</span>', __( '<b>1</b> Comment', 'twentyeleven' ), __( '<b>%</b> Comments', 'twentyeleven' ) ); ?></span>
+		</footer>
+		<?php endif; // End if comments_open() ?>
 	</article><!-- #post-<?php the_ID(); ?> -->
