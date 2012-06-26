@@ -40,3 +40,5 @@ input[type="submit"]:hover {background:#ff2f7d;}
 .wp-caption {
 	margin-bottom: 1.625em;
 }
+
+.entry-content img.wp-smiley {display:inline; border:0; box-shadow:none;}
