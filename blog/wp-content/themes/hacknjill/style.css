@@ -24,3 +24,19 @@ input {line-height:20px; padding:6px;}
 input, textarea, select {display:block;}
 input[type="submit"] {border:0; background:#d492ab; color:#fff; padding:6px 20px 8px; font-size:20px; line-height:27px; }
 input[type="submit"]:hover {background:#ff2f7d;}
+
+.entry-content img {
+  display:block;
+  box-shadow: 0 1px 3px #999;
+  border:1px solid #fff;
+}
+
+.entry-content h3 {margin-top:1em;}
+.wp-caption-text {
+  font-size:0.8em;
+  font-style:italic;
+}
+
+.wp-caption {
+	margin-bottom: 1.625em;
+}
