@@ -446,6 +446,12 @@ section.default {margin-top:70px; padding-top:40px; border-top:2px dotted #dbd59
 
 /* about */
 .bio { margin-bottom:2em;}
+.profile-photos {
+  float:left; margin-right:10px; 
+  box-shadow: 0 1px 3px #999;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+}
 #about {padding:20px 0 40px;border-top:2px dotted #dbd599;border-bottom:2px dotted #dbd599;}
 #team {margin:100px 0;}
 #signup {background:#92d1d3; color:#fff; padding:40px; margin-top:20px; }
