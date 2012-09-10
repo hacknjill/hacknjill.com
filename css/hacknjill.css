@@ -254,10 +254,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .span2 {width:160px}
+.span4 {width:300px;}
 .span5 {width:380px;}
 .span6 {width:460px;}
-.span4 {width:300px;}
-
+.span7 {width:540px;}
 
 /* layout */
 #site-header {

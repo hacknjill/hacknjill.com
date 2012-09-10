@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<div class="row-fluid">
+<div class="row">
   <div class="span7">
     <?php if ( have_posts() ) : ?>
 
