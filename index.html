@@ -38,145 +38,70 @@
   <body>
     <header id="site-header" class="container">
       <a href="/" class="hide-text" id="branding">Hack'n Jill</a>
-      <ul id="site-nav">
-        <li><a href="/" class="active">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/blog">Blog</a></li>        
-      </ul>
-      </nav>
+      <div id="header-nav">
+        <nav class="site-links">
+          <a href="/" class="active">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/blog">Blog</a>
+        </nav>
+        <div class="social-links">
+          <a href="http://twitter.com/hacknjill" class="social-twitter">twitter</a>
+          <a href="https://www.facebook.com/pages/Hackn-Jill/205210949589264" class="social-facebook">facebook</a>
+        </div>
+      </div>
     </header>
     
+    <section id="hero">
+      <div id="hero-inner">
+        <div id="hero-msg" class="clearfix">
+          <h1>The future of tech is 50% women...</h1>
+          <p>We organize events for the NYC tech community with a focus on 50:50 gender participation. <a href="/about.html">More about us &rarr;</a></p>
+          
+          <form id="signup">
+            <input type="email" placeholder="email@address.com" id="signup-email"/>
+            <button type="submit" id="signup-submit">Stay Informed</button>
+          </form>
+        </div>
+      </div>
+    </section>
     
     <div id="content" class="container">
-      <div id="hero-wrapper">
-        <div id="hero">
-          <div id="hero-title" class="hero-info">#HackYourSummer</div>
-          <div id="hero-description" class="hero-info">NYC, June 15-16</div>
-        </div>
-        <div id="hero-curl"></div>
-      </div>
-      
-      <div id="title1" class="dots-block title-block">
-        A hackathon with 50 men and 50 women
-        <div class="dots"></div>
-      </div>
-      
-      <div id="title2" class="dots-block title-block">
-        Build cool apps as summer heats up
-        <div class="dots"></div>
-      </div>
-      
-      <div class="row-fluid">
-        <div class="span4">
-          <h3><span class="icon"></span>Location</h3>
-          <div class="grid-content">
-            <p><a href="http://appnexus.com"><img src="/images/appnexus-logo.png" alt="AppNexus" width="190" height='49' /></a></p>
-            <div class="vcard">
-              <p class="adr">
-                <span class="street-address">28 West 23rd Street, 5th Floor</a><br />
-                <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10010</span><br />
-                <a href="http://maps.google.com/maps?q=AppNexus,+New+York,+NY&hl=en&gl=us">map</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="span4">
-          <h3><span class="icon"></span>Schedule</h3>
-          <div class="grid-content">
-            <div class="schedule-day">
-              <h4>June 15, 2012 <span class="day-name">friday</span></h4>
-              <dl>
-                <dt>7pm - 10pm</dt>
-                <dd><strong>Mixer + API Demos:</strong> Mingle and meet your team over pizza, beer, and demos from our API partners.</dd>
-              </dl>
-            </div>
-          
-            <div class="schedule-day">
-              <h4>June 16, 2012 <span class="day-name odd">saturday</span></h4>
-              <dl>
-                <dt>9am - 5pm</dt>
-                <dd><strong>Hack it:</strong> Bring your laptops and game plan for a day of hacking. Food and snacks provided.</dd>
-                <dt>5pm - 9pm</dt>
-                <dd><strong>Show off + Chill out:</strong> Present your app, win a prize, and raise a glass to yourself at the after party.</dd>
-              </dl>
-            </div>
-              
-          </div>  
-        </div>
-        <div class="span4">
-          <h3><span class="icon"></span>About</h3>
-          <div class="grid-content">
-            <p>#HackYourSummer welcomes 100 of New York's developers, designers, and digital dreamers  to make summer in the world's greatest city even better. Anything from food to fitness, music to travel.</p>
-
-            <p><a href="/about.html">Hack’n Jill</a> believes that diverse teams of men  and women create the best products.</p>
-            
-          </div>
-        </div>
-      </div>
-      
-      <section class="default row-fluid" id="sponsors">
-        <h2 class="a-center">Sponsors</h2>
-        
-        <div class="span6">
-          <p><a href="http://appnexus.com"><img src="/images/appnexus-logo-large.png" alt="AppNexus" width="401" height="106" /></a></p> <br />
-          <p>
-            <a href="http://www.yodle.com"><img src="/images/yodle-logo.png" alt="Yodle" width="100" height="46" /></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="http://dev.mashery.com/apis"><img src="/images/mashery-logo.png" alt="Mashery" width="100" height="82" /></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            
-            <a href="http://stackoverflow.com"><img src="/images/stackoverflow-logo.png" alt="StackOverflow" width="225" height="70" /></a>                        
-            <a href="http://boxee.tv"><img src="/images/boxee-logo.png" alt="Boxee" width="115" height="120" /></a>       
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <a href="http://twilio.com"><img src="/images/twilio-logo.png" alt="Twilio" width="225" height="75" /></a>  
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <a href="http://yipit.com/about/api/documentation/"><img src="/images/yipit-logo.png" alt="Yipit" width="110" height="52" /></a>                      
-             <a href="http://sendgrid.com"><img src="/images/sendgrid-logo.png" alt="SendGrid" width="200" height="56" /></a>
-
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <a href="http://microsoft.com/"><img src="/images/microsoft-logo.png" alt="Microsoft" width="180" height="40" /></a>                                                                        
-             <a href="http://temboo.com/"><img src="/images/temboo-logo.png" alt="Temboo" /></a>                                                                             
-          </p>
-        </div>
-        <div class="span1">&nbsp;</div>
-        <div class="span5">
-          <div class="aside">
-            <h4>Want to show your support for women in tech?</h4>
-            <p>We would love to talk to you about sponsorship opportunities. All sponsorships exclusively fund event production and promotion. <a href="mailto:partners@hacknjill.com">Email us</a>!</p>
-          </div>
+      <section id="quotation">
+        <blockquote>
+          When I walked into the room, I didn’t feel like an anomaly. I didn’t feel like my skills needed to be questioned. Hacker girls just like me were all around—in numbers that I didn’t even know existed.
+          <div class="qattribution-arrow">&nbsp;</div>
+        </blockquote>
+        <div class="qattribution clearfix">
+          <img src="/images/qattribution.jpg" />
+          <a href="hackny.org/a/2012/06/on-hack-n-jill-and-changing-the-ratio/">Sophie Chou</a>
         </div>
       </section>
-      
-      <section class="default a-center">
-        <p>
-          <a href="http://betabeat.com/2012/05/the-perfect-ratio-new-hackathon-brings-ladies-and-gents-together-to-build-cool-products/"><img src="/images/betabeat-logo.png" alt="Betabeat" width="242" height="53" /></a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="http://thenextweb.com/events/2012/05/22/hackn-jill-a-hackathon-bent-on-changing-the-conversation-about-women-in-tech/"><img src="/images/thenextweb-logo.png" alt="Betabeat" width="142" height="53" /></a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
-          <a href="http://www.women2.com/hackn-jill-nyc-hackathon-features-one-woman-for-every-man/"><img src="/images/women-2-logo.png" alt="Women 2.0" width="275" height="107" style="vertical-align:middle"/></a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
-          <a href="http://womeninnovatemobile.com/news/2012/5/8/hackn-jill.html"><img src="/images/wim-logo.png" alt="Women Innovate Mobile" width="204" height="53" /></a>          
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
-          <img src="/images/startup-digest-logo.png" alt="Startup Digest" width="300" height="53" />          
-        </p> 
+      <section id="press">
+        <a href="http://betabeat.com/2012/05/the-perfect-ratio-new-hackathon-brings-ladies-and-gents-together-to-build-cool-products/"><img src="/images/betabeat-logo.png" alt="Betabeat" width="242" height="53"></a>
         
-      </section>
+        <a href="http://thenextweb.com/events/2012/05/22/hackn-jill-a-hackathon-bent-on-changing-the-conversation-about-women-in-tech/"><img src="/images/thenextweb-logo.png" alt="Betabeat" width="142" height="53"></a>
+        
+        <a href="http://www.women2.com/hackn-jill-nyc-hackathon-features-one-woman-for-every-man/"><img src="/images/women-2-logo.png" alt="Women 2.0" width="275" height="107" style="vertical-align:middle"></a>
+        
+      </section>  
     </div>
     
-    <footer id="site-footer" class="container">
-      <div id="contact-wrapper">
-        <div id="contact">
-          <h4>Get Involved!</h4>
-          <p>
-            We are looking for hackers, sponsors, and volunteers. <br />
-            Connect with us: <a href="http://twitter.com/hacknjill">@hacknjill</a> or <a href="mailto:hi@hacknjill.com">email</a></p>
+    <footer id="site-footer">
+      <div class="container">
+        <div id="footer-nav">
+          <nav class="site-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/blog">Blog</a>
+          </nav>
+          <div class="social-links">
+            <a href="http://twitter.com/hacknjill" class="social-twitter">twitter</a>
+            <a href="https://www.facebook.com/pages/Hackn-Jill/205210949589264" class="social-facebook">facebook</a>            
+          </div>
         </div>
-        <div class="dots"></div>        
+        
+        <div class="a-right">Hack'n Jill &copy; 2012</div>
       </div>
-      <div id="footer-branding">
-        Hack'n Jill
-        <div class="dots"></div>
-      </div>
-
     </footer>
   </body>
 </html>

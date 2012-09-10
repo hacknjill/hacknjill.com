@@ -84,12 +84,17 @@
 <body <?php body_class(); ?>>
   <header id="site-header" class="container">
     <a href="/" class="hide-text" id="branding">Hack'n Jill</a>
-    <ul id="site-nav">
-      <li><a href="/">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/blog" class="active">Blog</a></li>        
-    </ul>
-    </nav>
+    <div id="header-nav">
+      <nav class="site-links">
+        <a href="/">Home</a>
+        <a href="/about.html" class="active">About</a>
+        <a href="/blog">Blog</a>
+      </nav>
+      <div class="social-links">
+        <a href="http://twitter.com/hacknjill" class="social-twitter">twitter</a>
+        <a href="https://www.facebook.com/pages/Hackn-Jill/205210949589264" class="social-facebook">facebook</a>
+      </div>
+    </div>
   </header>
  
 	<div id="content" class="container">

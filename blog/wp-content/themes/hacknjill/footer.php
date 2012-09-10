@@ -12,21 +12,22 @@
 
 	</div><!-- #content -->
 
-  <footer id="site-footer" class="container">
-    <div id="contact-wrapper">
-      <div id="contact">
-        <h4>Get Involved!</h4>
-        <p>
-          We are looking for hackers, sponsors, and volunteers. <br />
-          Connect with us: <a href="http://twitter.com/hacknjill">@hacknjill</a> or <a href="mailto:hi@hacknjill.com">email</a></p>
+  <footer id="site-footer">
+    <div class="container">
+      <div id="footer-nav">
+        <nav class="site-links">
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/blog">Blog</a>
+        </nav>
+        <div class="social-links">
+          <a href="http://twitter.com/hacknjill" class="social-twitter">twitter</a>
+          <a href="https://www.facebook.com/pages/Hackn-Jill/205210949589264" class="social-facebook">facebook</a>            
+        </div>
       </div>
-      <div class="dots"></div>        
+      
+      <div class="a-right">Hack'n Jill &copy; 2012</div>
     </div>
-    <div id="footer-branding">
-      Hack'n Jill
-      <div class="dots"></div>
-    </div>
-
   </footer>
 
 <?php wp_footer(); ?>
