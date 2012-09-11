@@ -206,6 +206,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {font-size:60px;}
 h2 {font-size:36px;}
+h3 {font-size:24px; font-weight:normal;}
 h5 {font-size:16px;}
 
 input {padding:16px 20px;}
@@ -296,8 +297,8 @@ input {padding:16px 20px;}
 .icon-computer {background-position:-11px -148px;}
 .icon-stars {background-position:-11px -226px;}    
 
-.section-header {background:url('/images/dots.png'); margin-bottom:50px; line-height:16px;}
-.section-header h2 {padding:0 15px; margin:0; background:#faf9f1; display:inline-block;}
+.section-header {background:url('/images/dots.png'); margin-bottom:50px; line-height:16px; text-align:center;}
+.section-header h1, .section-header h2 {padding:0 15px; margin:0; background:#faf9f1; display:inline-block;}
 
 /* layout */
 #site-header {
@@ -459,6 +460,10 @@ input {padding:16px 20px;}
 }
 
 #hys-stats .btn {font-size:16px;}
+
+#hacksgiving {margin:140px 0;}
+#hacksgiving p {line-height:2em; color:#666;}
+#hacksgiving-signup {margin:0 auto; width:600px; text-align:center;}
 
 /* about */
 .bio { margin-bottom:2em;}
