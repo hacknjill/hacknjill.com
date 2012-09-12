@@ -208,6 +208,7 @@ h1 {font-size:60px;}
 h2 {font-size:36px;}
 h3 {font-size:24px; font-weight:normal;}
 h5 {font-size:16px;}
+h6 {font-size:14px; margin:0.5em 0;}
 
 input {padding:16px 20px;}
 
@@ -463,7 +464,37 @@ input {padding:16px 20px;}
 
 #hacksgiving {margin:140px 0;}
 #hacksgiving p {line-height:2em; color:#666;}
-#hacksgiving-signup {margin:0 auto; width:600px; text-align:center;}
+#hacksgiving-main {margin:0 auto; width:600px; }
+
+#hacksgiving-actions {margin-top:30px; padding:0 9px;}
+  
+#hacksgiving-signup {
+  padding:14px 80px; 
+  text-shadow:0 -1px 1px #333;
+  color:#fff;
+  font-size:24px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;  
+  background: #bc3131; 
+  display:block;
+  float:left;
+  margin-top:20px;
+  cursor:pointer;
+}
+
+#hacksgiving-signup:hover {
+  text-decoration:none;
+  background:#ac2929;
+}
+
+#hacksgiving-sponsorship {
+  float:right;
+  width:260px;
+  font-size:14px;
+}
+
+#hacksgiving-sponsorship p {
+  line-height:1.8em;
+}
 
 /* about */
 .bio { margin-bottom:2em;}
