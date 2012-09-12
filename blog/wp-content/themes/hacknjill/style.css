@@ -7,7 +7,7 @@
 #site-header {border-bottom:2px dotted #dbd599; margin-bottom:40px;}
 
 .post {margin-bottom:5em;}
-.entry-title {margin:0.2em 0;}
+.entry-title {font-size:36px; margin:0.5em 0;}
 .entry-title a {color:#5A759A;}
 .entry-title a:hover {text-decoration:none;}
 .entry-meta {text-transform:uppercase; font-size:13px; color:#666;}
