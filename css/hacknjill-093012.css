@@ -466,18 +466,21 @@ input {padding:16px 20px;}
 #hacksgiving p {line-height:2em; color:#666;}
 #hacksgiving-main {margin:0 auto; width:600px; }
 
-#hacksgiving-actions {margin-top:30px; padding:0 9px;}
-  
+#hacksgiving-actions {margin-top:100px; margin-left:-50px; margin-right:-50px; padding:0 9px;}
+#hacksgiving-sponsors {float:left; width:400px;}  
+#hacksgiving-sponsors a {margin-right:20px; margin-bottom:20px; float:left; display:block;} 
+
 #hacksgiving-signup {
-  padding:14px 80px; 
+  padding:14px 0; 
+  text-align:center;
+  width:300px;
   text-shadow:0 -1px 1px #333;
   color:#fff;
   font-size:24px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;  
   background: #bc3131; 
   display:block;
-  float:left;
-  margin-top:20px;
+  margin:0 auto;
   cursor:pointer;
 }
 
