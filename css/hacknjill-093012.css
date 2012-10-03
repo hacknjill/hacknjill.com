@@ -489,6 +489,21 @@ input {padding:16px 20px;}
   background:#ac2929;
 }
 
+#hacksgiving-nytm {
+  text-align:center;
+  font-size:20px;
+  width:450px;
+  margin:60px auto;
+  color:#999;
+}
+#hacksgiving-nytm span {
+  float:left;
+}
+
+#hacksgiving-nytm img {
+  float:right;
+}
+
 #hacksgiving-sponsorship {
   float:right;
   width:260px;
