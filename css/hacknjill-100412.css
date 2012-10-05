@@ -489,19 +489,26 @@ input {padding:16px 20px;}
   background:#ac2929;
 }
 
-#hacksgiving-nytm {
+#hacksgiving-collab {
   text-align:center;
   font-size:20px;
-  width:450px;
   margin:60px auto;
   color:#999;
 }
-#hacksgiving-nytm span {
+#hacksgiving-collab span {
   float:left;
+  line-height:50px;
 }
 
-#hacksgiving-nytm img {
+#hacksgiving-collab div {
   float:right;
+  width:400px;
+}
+
+#hacksgiving-collab a {
+  display:inline-block;
+  margin-left:10px;
+  margin-bottom:10px;
 }
 
 #hacksgiving-sponsorship {
