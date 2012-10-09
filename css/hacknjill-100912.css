@@ -207,6 +207,7 @@ h1, h2, h3, h4, h5 {
 h1 {font-size:60px;}
 h2 {font-size:36px;}
 h3 {font-size:24px; font-weight:normal;}
+h4 {font-size:20px;}
 h5 {font-size:16px;}
 h6 {font-size:14px; margin:0.5em 0;}
 
@@ -463,8 +464,9 @@ input {padding:16px 20px;}
 #hys-stats .btn {font-size:16px;}
 
 #hacksgiving {margin:140px 0 100px;}
-#hacksgiving p {line-height:2em; color:#666;}
+#hacksgiving p {color:#666;}
 #hacksgiving-main {margin:0 auto; width:600px; }
+#hacksgiving-main p {line-height:2em; }
 
 #hacksgiving-sponsors {width:880px; margin:0 auto;}  
 #hacksgiving-sponsors a {margin:20px; float:left; display:block;} 
@@ -489,10 +491,14 @@ input {padding:16px 20px;}
 }
 
 #hacksgiving-collab {
+  border:1px dotted #ccc;
+  border-width:1px 0;
+  padding:36px 50px 20px;
   text-align:center;
   font-size:20px;
   margin:60px auto;
   color:#999;
+  width:600px;
 }
 #hacksgiving-collab span {
   float:left;
@@ -510,12 +516,16 @@ input {padding:16px 20px;}
   margin-bottom:10px;
 }
 
-#hacksgiving-involvement {
-  
-}
-
-.hg-extra ul {padding:0; list-style-type:none;}
-.hg-extra {float:left; width:300px;}
+#hg-extra {margin:40px 0; padding-top:60px}
+.hg-extra dl {margin:1em 0 1.8em; line-height:1.8em;}
+.hg-extra dt {float:left; width:80px; clear:left; color:#aeab8f;}
+.hg-extra dd {padding-left:80px; margin: 0 0 1em 0; }
+.hg-extra {float:left;}
+.hg-extra h5 {margin:0}
+.hg-extra p {line-height:1.6em;}
+#hacksgiving-location {width:280px;}
+#hacksgiving-schedule {width:320px; margin:0 30px;}
+#hacksgiving-involvement {width:280px; margin-left:20px;}
 
 /* about */
 .bio { margin-bottom:2em;}
