@@ -462,13 +462,12 @@ input {padding:16px 20px;}
 
 #hys-stats .btn {font-size:16px;}
 
-#hacksgiving {margin:140px 0;}
+#hacksgiving {margin:140px 0 100px;}
 #hacksgiving p {line-height:2em; color:#666;}
 #hacksgiving-main {margin:0 auto; width:600px; }
 
-#hacksgiving-actions {margin-top:100px; margin-left:-50px; margin-right:-50px; padding:0 9px;}
-#hacksgiving-sponsors {float:left; width:400px;}  
-#hacksgiving-sponsors a {margin-right:20px; margin-bottom:20px; float:left; display:block;} 
+#hacksgiving-sponsors {width:880px; margin:0 auto;}  
+#hacksgiving-sponsors a {margin:20px; float:left; display:block;} 
 
 #hacksgiving-signup {
   padding:14px 0; 
@@ -480,7 +479,7 @@ input {padding:16px 20px;}
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;  
   background: #bc3131; 
   display:block;
-  margin:0 auto;
+  margin:30px auto;
   cursor:pointer;
 }
 
@@ -511,15 +510,12 @@ input {padding:16px 20px;}
   margin-bottom:10px;
 }
 
-#hacksgiving-sponsorship {
-  float:right;
-  width:260px;
-  font-size:14px;
+#hacksgiving-involvement {
+  
 }
 
-#hacksgiving-sponsorship p {
-  line-height:1.8em;
-}
+.hg-extra ul {padding:0; list-style-type:none;}
+.hg-extra {float:left; width:300px;}
 
 /* about */
 .bio { margin-bottom:2em;}
