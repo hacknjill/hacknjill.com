@@ -216,7 +216,7 @@ input {padding:16px 20px;}
 /* util */
 .f-left{float:left}
 .f-right{float:right}
-.a-center{text-align:center}
+.a-center, .aligncenter{text-align:center}
 .a-right{text-align:right}
 
 .clearfix {
