@@ -92,7 +92,7 @@
       </nav>
       <div class="social-links">
         <a href="http://twitter.com/hacknjill" class="social-twitter">twitter</a>
-        <a href="https://www.facebook.com/pages/Hackn-Jill/205210949589264" class="social-facebook">facebook</a>
+        <a href="https://www.facebook.com/hacknjill" class="social-facebook">facebook</a>
       </div>
     </div>
   </header>
