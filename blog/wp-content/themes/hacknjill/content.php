@@ -45,3 +45,4 @@
 		</footer>
 		<?php endif; // End if comments_open() ?>
 	</article><!-- #post-<?php the_ID(); ?> -->
+  <a name="respond"></a>
