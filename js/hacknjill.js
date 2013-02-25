@@ -8,19 +8,15 @@ HNJ.img_strip = function($div) {
   function calcStrip() {
     var img_widths = 0;    
     var imgs = [];
-    var prev_img_idx;
-    var curr_img_idx;
+    var curr_img_idx = 0;
 
     while(img_widths < win_width) {
-      curr_img_idx = Math.floor((Math.random()*imgLen)+0);
-      if (curr_img_idx === prev_img_idx) continue;
-
-      prev_img_idx = curr_img_idx;
       var $img = $imgs.eq(curr_img_idx).css({left: img_widths-25+8*imgs.length});
-
       var img_width = parseInt($img.attr('width'));
       img_widths += img_width;
       imgs.push($img.clone());
+      curr_img_idx++;
+      if (curr_img_idx == imgLen) curr_img_idx = 0;
     }
     $div.html(imgs);    
   }

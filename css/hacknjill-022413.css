@@ -368,6 +368,23 @@ input {padding:16px 20px;}
   background-size:cover;
 }
 
+.hero-title {
+  background:rgba(0, 0, 0, 0.7);
+  font-size:80px;
+  padding:20px 0;
+  text-align:center;  
+  margin:80px auto 0;
+  color:#eee;
+}
+
+.hero-title h1, h4 {margin:0;text-shadow:0 0 2px #000;}
+.hero-title h4 {color:#999}
+
+.sponsors { width:920px; margin:0 auto; padding-bottom:40px; border-bottom:1px solid #eee} 
+.sponsors a {margin:20px; float:left; display:block;}
+.judges {margin-bottom:50px;}
+.judges p {padding:0 4px;}
+
 #hero {
   height:638px;
   background:#000 url('/images/hero2.jpg') no-repeat center;  
@@ -391,19 +408,48 @@ input {padding:16px 20px;}
 #hero-msg p {line-height:2em;}
 #hero-msg h2{color:#fff; margin:0 0 20px}
 #hero-msg a {color:#8db4dc;}
-#signup {
-  margin-top:16px;
-  background:rgba(255, 255, 255, 0.2);
-  padding:8px;
-  float:left;
+
+
+#previous-events {
+  padding-top:80px;
+  font-size:30px;
+  line-height:48px;
 }
 
 
 /* quotation */
+
 .quotation blockquote {
   position:relative;  
   line-height:1.6em; 
   margin:0; 
+}
+.archive-quotation {
+  width:430px;
+  float:left;
+  margin-left:30px;
+  margin-top:-50px;
+}
+.archive-quotation blockquote{
+  background:url('/images/quote-bg2.jpg') -20px -30px;
+  padding:30px;  
+  line-height:2em;
+  box-shadow:0 1px 3px #5f5247;
+  -moz-box-shadow: 0 1px 3px #5f5247;
+  -webkit-box-shadow: 0 1px 3px #5f5247;
+}
+
+.archive-quotation .qattribution-arrow {
+    background:url('/images/quote-arrow2-bg.png') no-repeat; 
+    width:66px; 
+    height:38px; 
+    position:absolute; 
+    bottom:-38px;
+    left:29px;
+}
+  
+.archive-quotation .qattribution {
+  margin:15px 0 0 110px;
 }
 
 #quotation {margin:80px 0}
@@ -437,17 +483,32 @@ input {padding:16px 20px;}
     margin-right:15px; 
     float:left;
 }
+
 .qattribution a {line-height:70px;}
 
 #press {text-align:center;margin:100px 0}
 #press a {margin:0 40px;}
 
+
+/* hys */
+#hys-hero {
+  height: 280px;
+  background-image:url('/images/hys-hero.jpg');
+}
+
+#hys-title {
+  width:600px;
+}
+
+#hys .sponsors {padding-top:30px; margin-top:50px;border-top:1px solid #eee;}
+
+
 /* hacksgiving */
-#hacksgiving h2 {text-align:center; color:#745c49; margin:2em 0 1.6em;}
+#hys h2, #hacksgiving h2 {text-align:center; color:#745c49; margin:2em 0 1.6em;}
 
 #hacksgiving-hero {
   height: 280px;
-  background-image:url('/images/hacksgiving-hero');
+  background-image:url('/images/hacksgiving-hero.jpg');
 }
 
 #hacksgiving-imgs {
@@ -463,49 +524,8 @@ input {padding:16px 20px;}
 }
 
 #hacksgiving-title {
-  background:rgba(0, 0, 0, 0.7);
-  font-size:80px;
-  padding:20px 0;
-  text-align:center;  
-  margin:80px auto 0;
   width:440px;
-  color:#eee;
 }
-#hacksgiving-title h1, h4 {margin:0;text-shadow:0 0 2px #000;}
-#hacksgiving-title h4 {color:#999}
-#hacksgiving-quotation {
-  width:430px;
-  float:left;
-  margin-left:30px;
-  margin-top:-50px;
-}
-#hacksgiving-quotation blockquote{
-  background:url('/images/quote-bg2.jpg') -20px -30px;
-  padding:30px;  
-  line-height:2em;
-  box-shadow:0 1px 3px #5f5247;
-  -moz-box-shadow: 0 1px 3px #5f5247;
-  -webkit-box-shadow: 0 1px 3px #5f5247;
-}
-
-.qattribution-quote {
-  position:absolute;
-  font-size:120px;
-}
-#hacksgiving-quotation .qattribution-arrow {
-    background:url('/images/quote-arrow2-bg.png') no-repeat; 
-    width:66px; 
-    height:38px; 
-    position:absolute; 
-    bottom:-38px;
-    left:29px;
-}
-  
-#hacksgiving-quotation .qattribution {
-  margin:15px 0 0 110px;
-}
-#hacksgiving-sponsors { width:920px; margin:0 auto 60px;}  
-#hacksgiving-sponsors a {margin:20px; float:left; display:block;} 
 
 #hacksgiving-collab {
   border:1px dotted #ccc;
@@ -532,8 +552,6 @@ input {padding:16px 20px;}
   margin-left:10px;
   margin-bottom:10px;
 }
-#hacksgiving-judges {margin-bottom:50px;}
-#hacksgiving-judges p {padding:0 4px;}
 
 #hacksgiving-turkey {
   text-align:center;
