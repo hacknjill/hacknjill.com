@@ -8,7 +8,7 @@
  */
 ?>
 
-<div class="span5">
+<div class="span3">
   
   <div id="sidebar">
     <?php dynamic_sidebar( 'sidebar-1' ) ?>

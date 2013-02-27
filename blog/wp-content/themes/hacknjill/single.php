@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div class="row">
-  <div class="span7">
+  <div class="span5">
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>

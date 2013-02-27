@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div class="row">
-  <div class="span7">
+  <div class="span5">
     <?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
