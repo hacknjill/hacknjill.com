@@ -583,6 +583,69 @@ input {padding:16px 20px;}
 
 #hys .sponsors {padding-top:30px; margin-top:50px;border-top:1px solid #eee;}
 
+#event-main {margin:140px 0 100px;}
+#event-main p {color:#666;}
+#event-main {margin:0 auto; width:600px; }
+#event-main p {line-height:2em; }
+
+#event-sponsors {padding: 0 40px 60px; border-bottom:1px dotted #ccc;}  
+#event-sponsors a {margin:20px; float:left; display:block;} 
+
+#event-signup {
+  padding:14px 0; 
+  text-align:center;
+  width:300px;
+  text-shadow:0 -1px 1px #333;
+  color:#fff;
+  font-size:24px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;  
+  background: #bc3131; 
+  display:block;
+  margin:30px auto;
+  cursor:pointer;
+}
+
+#event-signup:hover {
+  text-decoration:none;
+  background:#ac2929;
+}
+
+#event-collab {
+  border:1px dotted #ccc;
+  border-width:1px 0;
+  padding:36px 50px 20px;
+  text-align:center;
+  font-size:20px;
+  margin:60px auto;
+  color:#999;
+  width:600px;
+}
+#event-collab span {
+  float:left;
+  line-height:50px;
+}
+
+#event-collab div {
+  float:right;
+  width:400px;
+}
+
+#event-collab a {
+  display:inline-block;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
+#event-extra {margin:40px 0; padding-top:60px}
+.event-extra dl {margin:1em 0 1.8em; line-height:1.8em;}
+.event-extra dt {float:left; width:80px; clear:left; color:#aeab8f;}
+.event-extra dd {padding-left:80px; margin: 0 0 1em 0; }
+.event-extra {float:left;}
+.event-extra h5 {margin:0}
+.event-extra p {line-height:1.6em;}
+#event-location {width:280px;}
+#event-schedule {width:320px; margin:0 30px;}
+#event-involvement {width:280px; margin-left:20px;}
 
 /* hacksgiving */
 #hys h2, #hacksgiving h2 {text-align:center; color:#745c49; margin:2em 0 1.6em;}
