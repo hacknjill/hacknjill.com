@@ -382,6 +382,22 @@ input {padding:16px 20px;}
 
 .sponsors { width:920px; margin:0 auto; padding-bottom:40px; border-bottom:1px solid #eee} 
 .sponsors a {margin:20px; float:left; display:block;}
+
+#prizes {padding:36px 50px; border-top:1px dotted #ccc;}
+#prizes h5 {margin:0;}
+#prizes ul {padding:0; margin-top:0.75em; margin-bottom:1.5em; list-style-type:none;}
+#prizes .prize {float:left; width:320px; margin:30px 50px;}
+#judges {
+  margin:40px -20px 50px;
+}
+
+.judge {
+  float:left; 
+  width: 210px;
+  margin:0 20px;
+}
+#judges h5 { line-height:1.6em;}
+
 .judges {margin-bottom:50px;}
 .judges p {padding:0 4px;}
 
